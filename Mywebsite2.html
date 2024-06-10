@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+     <title>Navigation Menu Example</title>
+    <style>
+        /* CSS for styling the navigation menu */
+        nav {
+            background-color:transparent;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        h1{
+          color: rgb(9, 9, 9);
+        }
+        p{
+          color: rgb(14, 13, 15);
+        }
+        footer{
+            text-align: center;
+            background-color: transparent;        }
+            body{
+                background: url(bg1.jpg);
+                background-repeat: no-repeat;
+                background-size: 1530px 767px;
+            }
+        @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+    </style>
+</head>
+<body>
+  <body background="bg1.jpg"></body>
+  <body bgcolor="darkblue"></body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="Login.html">login</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to Our Website</h1>
+    <p>This is a sample website with a navigation menu.</p>
+<footer>
+    <p>&copy; <b>2024 sandulquer. All Right Resevered</b> </p>
+</footer>
+</body>
+</html>

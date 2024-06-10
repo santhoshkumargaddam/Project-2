@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <style>
+             Body{
+                background:rgb(106, 170, 230)
+            }
+            form{
+                background-color: rgb(157, 207, 236);
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-right: 60px;
+                padding-bottom: 80px;
+            }
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }
+        </style>
+      </head>
+    <body>
+        <center><h1>Registration Form</h1></center><br><br>
+        <form align="left" action="login.html">
+            Name: 
+            <br> <input type="text" name="sname"><br>
+            Roll no: <br><input type="text" name="roll_no"><br>
+            Date of Birth :<br>
+            <input type="date" name="bname"><br>
+            Email ID: <br><input type="email" name="mail"><br>
+            Username: <br><input type="text" name="username"><br><br>
+            Gender: <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            Year: <select name="year"><br>
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+                </select><br><br>
+            Course:<br>
+            <input type="checkbox" name="c">C<br>
+            <input type="checkbox" name="python">python<br>
+            <input type="checkbox" name="java">java<br>
+            Address:<br><textarea name="mytest" cols="35" row="45">
+            </textarea><br>
+            Create Password: <br><input type="password" name="pass"><br>
+            Confirm Password: <br><input type="password" name="pass"><br><br>
+            <input type="submit">
+            <button type="reset">Reset</button> 
+        </form>
+    </body>
+</html>
